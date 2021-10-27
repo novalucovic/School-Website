@@ -1,15 +1,17 @@
-/**************
-*** DISPLAY ***
-***************/
+/***************
+ *** Display ***
+ ***************/
 .d-flex { display: flex;}
 
-/***********
-*** FLEX ***
-************/
+/************
+ *** Flex ***
+ ************/
 .flex-grow {flex-grow: 1;}
+.flex-row {flex-direction: row;}
+.flex-column{flex-direction: column;}
 
-/**********************
-*** ALIGN & JUSTIFY ***
-***********************/
-.justify-content-between {justify-content: space-between;}
+/***********************
+ *** Align & Justify ***
+ ***********************/
+.justify-content-between {justify-content: space-between;} 
 .align-items-center {align-items: center;}

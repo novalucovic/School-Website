@@ -1,6 +1,6 @@
 :root{
    /**************
-    *** COLORS ***
+    *** Colors ***
     **************/
     --color-primary:#a597e7;
     --color-secondary:#6c757d;
@@ -17,7 +17,7 @@
     --color-dark-transparent:rgba(0, 0, 0, 0.2);
 
    /***************
-    *** DISPLAY ***
+    *** Display ***
     ***************/
     --display-xxs: 1rem;
     --display-xs: 1.4rem;
@@ -28,14 +28,14 @@
     --display-xxl: 3rem;
 
    /*******************
-    *** LINE HEIGHT ***
+    *** Line Height ***
     *******************/
     --line-height-sm: 1rem;
     --line-height-md: 1.6rem;
     --line-height-lg: 3rem;
 
    /****************
-    *** DISTANCE ***
+    *** Distance ***
     ****************/
     --distance-0: 0rem;
     --distance-1: .25rem;
@@ -56,13 +56,13 @@
     --distance-16: 4rem;
 
    /***************
-    *** SHADOWS ***
+    *** Shadows ***
     ***************/
     --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
     --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
 
    /***************
-    *** BORDERS ***
+    *** Borders ***
     ***************/
     --border-xs-white: .1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);
@@ -102,9 +102,9 @@ body {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: "Dosis", "Open Sans", sans-serif; font-weight: 700; letter-spacing: .05rem;}
 .h1, h1 {font-size: 3.5rem;}
 
-/************************
-*** BACKGROUND COLORS ***
-*************************/
+/*************************
+ *** Background Colors ***
+ *************************/
 .bg-primary, .btn-primary {background-color: var(--color-primary);}
 .bg-secondary, .btn-secondary {background-color: var(--color-secondary);}
 .bg-success, .btn-success {background-color: var(--color-success);}
@@ -118,9 +118,9 @@ body {
 .bg-transparent{background-color: var(--color-transparent);}
 .bg-dark-transparent {background-color: var(--color-dark-transparent);}
 
-/******************
-*** TEXT COLORS ***
-*******************/
+/*******************
+ *** Text Colors ***
+ *******************/
 .text-primary {color:var(--color-primary)}
 .text-secondary {color:var(--color-secondary)}
 .text-success {color:var(--color-success)}
@@ -130,10 +130,11 @@ body {
 .text-dark {color:var(--color-dark)}
 .text-white {color:var(--color-white)}
 .text-cozy {color:var(--color-cozy)}
+.text-info {color:var(--color-info)}
 
-/********************
-*** BORDER COLORS ***
-*********************/
+/*********************
+ *** Border Colors ***
+ *********************/
 .border-color-primary {border-color: var(--color-primary)!important;}
 .border-color-secondary {border-color: var(--color-secondary)!important;}
 .border-color-success {border-color: var(--color-success)!important;}
