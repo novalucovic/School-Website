@@ -21,9 +21,9 @@
     ***************/
     --display-xxs: 1rem;
     --display-xs: 1.4rem;
-    --display-s: 1.6rem;
-    --display-m: 1.8rem;
-    --display-l: 2rem;
+    --display-sm: 1.6rem;
+    --display-md: 1.8rem;
+    --display-lg: 2rem;
     --display-xl: 2.5rem;
     --display-xxl: 3rem;
 
@@ -64,7 +64,7 @@
    /***************
     *** Borders ***
     ***************/
-    --border-xs-white: .1rem solid var(--color-white);
+    --border-xs-white: 0.1rem solid var(--color-white);
     --border-xs: .1rem solid var(--color-light);
     --border-sm: .2rem solid var(--color-light);
     --border-lg: .4rem solid var(--color-white);

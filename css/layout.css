@@ -8,6 +8,12 @@
  **************/
 .max-width {max-width: 192rem;}
 
+/****************
+ *** Position ***
+ ****************/
+ .position-relative {position: relative !important;}
+ .position-absolute {position: absolute !important;}
+
 /***************
  *** Margins ***
  ***************/
@@ -48,6 +54,14 @@
  ******************/
 .text-decoration-none{text-decoration: none;}
 
+.text-size-xxs {font-size: var(--display-xxs);}
+.text-size-xs {font-size: var(--display-xs);}
+.text-size-sm {font-size: var(--display-sm);}
+.text-size-md {font-size: var(--display-md);}
+.text-size-lg {font-size: var(--display-lg);}
+.text-size-xl {font-size: var(--display-xl);}
+.text-size-xxl {font-size: var(--display-xxl);}
+
 .lh-sm {line-height: var(--line-height-sm);}
 .lh.md {line-height: var(--line-height-md);}
 .lh.lg {line-height: var(--line-height-lg);}
@@ -66,6 +80,17 @@
  *** Buttons ***
  ***************/
  nav div a:not(:first-child){ margin-left: var(--distance-12);}
+.icon-badge {
+    top: -8px;
+    right: -8px;
+    padding: var(--distance-1) var(--distance-3);
+ }
+
+/***************
+ *** Borders ***
+ ***************/
+.border-radius {border-radius: var(--border-radius-sm);}
+.border-small-white {border: var(--border-xs-white);}
 
 /**************
  *** Images ***
