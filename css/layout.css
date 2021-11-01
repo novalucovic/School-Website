@@ -89,8 +89,10 @@
 /**************
  *** Circle ***
  **************/
-.circle{border-radius: 100%;}
+.circle { border-radius: 100%;}
+.circle-lg { width: 15rem; height: 15rem; }
 .icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem;}
+
 
 /***************
  *** Shadows ***
